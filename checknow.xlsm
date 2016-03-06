@@ -1,0 +1,6 @@
+Sub CheckApplied()
+   
+  cnt = Worksheets("Sheet1").Cells.SpecialCells(xlCellTypeLastCell).Row
+  actualcount = cnt - 3
+MsgBox Format(Now(), "hh:mm AMPM")
+End Sub
